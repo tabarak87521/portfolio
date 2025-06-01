@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabarak</title>
+
+    <style>
+
+        .centered-content {
+         text-align: center;
+         margin: 40px auto;
+         text-align: center;
+}
+
+
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: black;
+            color: antiquewhite;
+            text-align: center;
+        }
+
+        body{
+            background-color: antiquewhite;
+            background-attachment: fixed;
+            justify-content: center; 
+            align-items: center;     
+            height: 100vh;   
+        }
+
+        p{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            size: 40px;
+                border: 2px solid black; 
+                padding: 20px;
+                width: 60%;
+                margin: 40px auto;
+                text-align: center;
+        }
+
+        ul{
+            margin: 50px auto;
+            font-family: 'Times New Roman', Times, serif;
+            display: inline-block;
+            text-align: left;
+        }
+
+        li{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+    </style>
+
+</head>
+<body >
+    
+<h1>Tabarek Khalaf</h1>
+  
+<h4 id ="demo" style="width: 30; text-align: center;"></h4>
+
+<p> Hi, I'm Tabarak, a second year computer enginnering student and a passionate and curious individual with a strong interest in understanding computer logic 
+    and the underlying systems that shape how the world operates. I study at Istanbul Aydin University and so far, my academic journey has been
+     deeply enriching — not only in terms of subject knowledge within my field, but also in personal growth, 
+     teaching me discipline, resilience, and the ability to perform effectively under pressure.
+</p>
+ <div class="centered-content">
+<h3 style="font-family: 'Times New Roman', Times, serif;">Project Contributions </h3>
+<ul>
+
+    <li>
+         FTR: Flight Ticket Reservation: A flight booking system (uses Java Swing and MySQL)
+         <br><br>
+        <img src="FTR.png" alt="flight" width="850px" height="300px"> 
+     </li>
+        <br><br><br>
+    <li>Product Managment System: A basic java project that applies the logic of products management
+        <br><br>
+        <img src="products.png" alt="product management" width="850px" height="300">
+    </li>
+    <br><br><br>
+    <li>OOP Project: A software project that demonstrates the fundamental principles of Object-Oriented Programming 
+        <br><br>
+        <img src="oop.png" alt="oop" width="850" height="300">
+
+    </li>
+</ul>
+<br><br><br><br>
+
+
+
+
+<h2 style="font-family: 'Times New Roman', Times, serif;">Get to know me more: </h2>
+<br>
+
+<h3>Skills</h3>
+<ul>
+    <li>Polyglot (Arabic, English, Turkish,and Japanese)</li>
+    <li>Programming langueges (JS, C, Java, CSS, HTML,and MySQL)</li>
+    <li>Teamwork</li>
+    <li>Video editing</li>
+
+</ul>
+
+
+<h3>Hobbies:</h3>
+<ul>
+    <li>Drawing</li>
+    <li>Reading</li>
+    <li>Swordsman</li>
+    <li>Filmming</li>
+    <li>Watching movies</li>
+    <li>Learning langueges</li>
+</ul>
+
+<br><br>
+
+<div>
+
+    An improvement tip: <input type="text">
+    <button id="sub" type="submit" onclick="button()">Submit</button>
+</div>
+
+<br><br><br><br>
+
+<script>
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+ greeting = "Good morning";
+} else if (time < 20) {
+ greeting = "Good day";
+} else {
+ greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+
+function button(){
+
+    alert("Thank you for your advice");
+}
+
+
+</script>
+
+</div>
+
+
+</body>
+</html>
